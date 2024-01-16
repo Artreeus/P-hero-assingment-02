@@ -456,6 +456,12 @@ footer p {
   line-height: 26px;
 }
 
+
+
+/* Responsive css  */
+
+
+
 @media screen and (max-width: 600px) {
   header,
   main {
