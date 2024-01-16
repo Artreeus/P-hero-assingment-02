@@ -39,13 +39,13 @@ h1 {
   font-weight: 700;
   display: inline-block;
   border: 0;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
-.primary-btn:hover{
+.primary-btn:hover {
   color: var(--primary-color);
   background: transparent;
-  border:1px solid #FF5400;
+  border: 1px solid #ff5400;
 }
 
 header,
@@ -96,7 +96,7 @@ header nav ul li a {
   font-weight: 400;
 }
 
-header .rightnav .bars{
+header .rightnav .bars {
   display: none;
 }
 
@@ -150,11 +150,9 @@ select {
   background: #fff;
 }
 
-.banner-content form input:focus{
+.banner-content form input:focus {
   border: none !important;
 }
-
-
 
 .banner-content form ::placeholder {
   color: rgba(19, 19, 24, 0.5);
@@ -201,37 +199,31 @@ select {
 
 /* Gallery section css  */
 
-
-
 .gallery {
   margin-top: 100px;
-
 }
 
-.gallery .g-content{
+.gallery .g-content {
   text-align: center;
 }
 
-.gallery .g-content p{
+.gallery .g-content p {
   padding: 40px 0;
 }
 
-.gallery .g-content h1{
+.gallery .g-content h1 {
   color: #131318;
-font-size: 40px;
-font-weight: 800;
+  font-size: 40px;
+  font-weight: 800;
 }
 
-.gallery .g-content p{
-  color: rgba(19, 19, 24, 0.70);
+.gallery .g-content p {
+  color: rgba(19, 19, 24, 0.7);
 
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
-
-
-
 
 .gallery .container img {
   width: 100%;
@@ -320,10 +312,7 @@ line-height: 26px;
   gap: 24px;
 }
 
-
-
 .card .top .one1 {
-
   flex-shrink: 0;
   border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.2);
@@ -331,41 +320,40 @@ line-height: 26px;
 }
 
 .card .top .c-2 {
-
   flex-shrink: 0;
   border-radius: 16px;
   border-radius: 16px;
   border-radius: 16px;
-  border: 1px solid rgba(41, 206, 246, 0.20);
+  border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
 }
 
-.card .one1, .two2 ,.three3{
-    width: 573px;
-    height: 284px;
+.card .one1,
+.two2,
+.three3 {
+  width: 573px;
+  height: 284px;
 }
 
 .card .bottom .three3 {
-
   flex-shrink: 0;
   border-radius: 16px;
-  border: 1px solid rgba(233, 68, 68, 0.20);
+  border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
-
 }
 
-.card .bottom .three3{
-    margin: 20px auto;
+.card .bottom .three3 {
+  margin: 20px auto;
 }
 
 .card img,
-h2,p 
-{
+h2,
+p {
   padding: 15px;
 }
 
-.card p{
-    color: var(--text-color);
+.card p {
+  color: var(--text-color);
 }
 
 /* Nesletter section css  */
@@ -378,60 +366,61 @@ h2,p
   margin-top: 100px;
 }
 
-.newsletter .right{
+.newsletter .right {
   border-radius: 16px;
-border: 1px solid #FF5400;width: 474px;
-height: 450px;
-padding: 30px;
+  border: 1px solid #ff5400;
+  width: 474px;
+  height: 450px;
+  padding: 30px;
 }
 
-
-.newsletter h2{
-  color:var(--primary-color);
+.newsletter h2 {
+  color: var(--primary-color);
   font-size: 24px;
   font-weight: 800;
 }
 
-.newsletter p{
+.newsletter p {
   width: 350px;
-  color: #5A5A5D;
+  color: #5a5a5d;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 31px;
 }
 
-.newsletter hr{
+.newsletter hr {
   margin-bottom: 20px;
-  width:393px; background: rgba(19, 19, 24, 0.10);
-}
-
-.newsletter input{
   width: 393px;
-height: 52px;
-border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-flex-shrink: 0;
-border: none;
-padding: 24px 0;
-}
-.newsletter ::placeholder{
-font-size: 16px;
-font-weight: 00;
-padding: 10px 20px;
+  background: rgba(19, 19, 24, 0.1);
 }
 
-.newsletter input[type=text]{
+.newsletter input {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  flex-shrink: 0;
+  border: none;
+  padding: 24px 0;
+}
+.newsletter ::placeholder {
+  font-size: 16px;
+  font-weight: 00;
+  padding: 10px 20px;
+}
+
+.newsletter input[type="text"] {
   margin: 12px 0;
 }
 
-.newsletter button{
+.newsletter button {
   width: 393px;
 }
 
 /* Book now section css  */
 
-.book-now{
+.book-now {
   text-align: center;
   background-image: url(images/Rectangle\ 4.png);
   background-position: center;
@@ -442,49 +431,48 @@ padding: 10px 20px;
   padding-top: 200px;
   border-radius: 16px;
 }
-.book-now button{
+.book-now button {
   margin-top: 20px;
 }
 
-.book-now h1{
+.book-now h1 {
   color: white;
 }
 
 /* Footer section css  */
 
-footer hr{
+footer hr {
   width: 872px;
-  height: 1px;;
-margin: 0 auto;
-background: rgba(19, 19, 24, 0.10);
+  height: 1px;
+  margin: 0 auto;
+  background: rgba(19, 19, 24, 0.1);
 }
 
-footer p{
-  color: #5A5A5D;
+footer p {
+  color: #5a5a5d;
 
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 @media screen and (max-width: 600px) {
   header,
   main {
     width: auto;
-
   }
-  header{
+  header {
     margin: 0 10px;
   }
 
-  main{
+  main {
     margin: 0 10px;
   }
 
-  header .rightnav .bars{
+  header .rightnav .bars {
     display: block;
   }
-  header .rightnav img{
+  header .rightnav img {
     width: 50px;
   }
   .banner {
@@ -492,11 +480,11 @@ line-height: 26px;
     width: 100%;
     height: 800px;
   }
-  .banner-content h2{
+  .banner-content h2 {
     font-size: 40px;
   }
 
-  .banner-content p{
+  .banner-content p {
     font-size: 15px;
   }
   header nav,
@@ -507,7 +495,7 @@ line-height: 26px;
     flex-direction: column;
   }
 
-  header .rightnav .bars{
+  header .rightnav .bars {
     padding: 26px 0 20px 26px;
     margin-right: 18px;
   }
@@ -525,10 +513,10 @@ line-height: 26px;
     border-radius: 8px;
     background: #fff;
   }
-  .banner-content form{
+  .banner-content form {
     padding: 10px;
   }
-  .popular .image img{
+  .popular .image img {
     max-width: 100%;
   }
   .form-btn {
@@ -536,88 +524,81 @@ line-height: 26px;
   }
 
   header nav .leftnav li {
-   display: none;
+    display: none;
   }
-  
-.card .one1, .two2 ,.three3{
+
+  .card .one1,
+  .two2,
+  .three3 {
     width: 100%;
-}
+  }
 
-.gallery{
-  margin-top: 50px;
-}
+  .gallery {
+    margin-top: 50px;
+  }
 
-.newsletter img{
-  width: 100%;
-}
-.newsletter .right {
-  height: 470px;
-  width: 380px;
-  padding: 10px;
-}
-.newsletter p{
-  font: 10px;
-  margin-left: -10px;
-}
-.newsletter input
-{
-  width: 350px;
-}
-.newsletter button{
-  width: 350px;
-}
-.newsletter hr{
-  width: 350px;
-}
-footer {
-  height: 395px;
-  margin-top: 30px;
-}
-footer hr{
-   width: auto;
-}
-
-.book-now{
-  margin-top: 30px;
-}
-}
-
-
-
-
-
-@media screen and (max-width: 375px){
-  .newsletter .right{
+  .newsletter img {
+    width: 100%;
+  }
+  .newsletter .right {
+    height: 470px;
+    width: 380px;
+    padding: 10px;
+  }
+  .newsletter p {
+    font: 10px;
+    margin-left: -10px;
+  }
+  .newsletter input {
     width: 350px;
   }
-  .banner-content form{
+  .newsletter button {
+    width: 350px;
+  }
+  .newsletter hr {
+    width: 350px;
+  }
+  footer {
+    height: 395px;
+    margin-top: 30px;
+  }
+  footer hr {
+    width: auto;
+  }
+
+  .book-now {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .newsletter .right {
+    width: 350px;
+  }
+  .banner-content form {
     padding: 10px 0;
   }
 
-  .newsletter input
-{
-  width: 330px;
-}
-.book-now{
-  margin-top: 30px;
-  padding-top: 100px;
-
-}
-.newsletter button{
-  width: 330px;
-}
-.newsletter hr{
-  width: 330px;
-}
-footer{
-  height: 395px;
-}
+  .newsletter input {
+    width: 330px;
+  }
+  .book-now {
+    margin-top: 30px;
+    padding-top: 100px;
+  }
+  .newsletter button {
+    width: 330px;
+  }
+  .newsletter hr {
+    width: 330px;
+  }
+  footer {
+    height: 395px;
+  }
 }
 
-
-@media screen and (max-width: 360px){
-
-  .banner-content{
+@media screen and (max-width: 360px) {
+  .banner-content {
     padding-top: 30px;
   }
 
